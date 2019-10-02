@@ -10,7 +10,14 @@
 </head>
 
 <body>
+    <h1>Welcome to the Quiz</h1>
+        <h2>Below guess a whole number between 1 and 20. You get 4 guesses.</h2>
+        <h3>Enter your number here: <input id='user-number' type='number' min='1' max='20'></h3>
+        <button onclick="compareNumber">Am I Right?</button>
 
+        <p>You have this many guesses remaining: <span id='remaining-guesses'></span></p>
+        <p>Your number was: <span id='too high'></span></p>
+        
     <script src="app.js"></script>
 </body>
 
